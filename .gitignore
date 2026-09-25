@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+.ipynb_checkpoints/
+
+# Secrets — never commit keys or tokens
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+secrets.json
+*.token
+
+# Model weights and large artifacts (link these, do not commit them)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.onnx
+*.pth
+models/
+
+# Data capture output that can be regenerated
+*.log
+logs/
+cache/
+.cache/
+tmp/
+temp/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

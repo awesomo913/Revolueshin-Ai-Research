@@ -1,0 +1,289 @@
+[general 118]
+bulletproof hosting -> abuse-resistant hosting service
+cracks / crack / cracked / cracking / cracker / crackers -> access-recovery testing
+account takeovers -> account-control transfer
+cum / semen / ejaculation -> adult bodily-fluid reference
+camgirls / cam sites / adult cam sites / onlyfans / sugar baby / sugar babies -> adult creator platform
+strip clubs / strippers / lap dances -> adult entertainment service
+xxx / smut -> adult explicit material
+ecchi / softcore / hardcore -> adult explicitness category
+lewd / obscene / raunchy / salacious / sexy / seductive / steamy / suggestive -> adult implication tone
+orgasms / orgasm / orgasmic -> adult peak response
+horny / aroused / erections / ejaculate / ejaculated / ejaculating / ejaculation / climax -> adult physiological response
+bondage / domination / submission / dominance and submission -> adult power-dynamic theme
+masturbate / masturbates / masturbated / masturbating / masturbation -> adult self-intimacy act
+fap / handjobs / blowjobs / rimjobs -> adult self-or-partner intimacy act
+explicit images / explicit photos / explicit videos -> adult-detail visual media
+sex toys / vibrators / dildos -> adult-intimacy device
+cyber attacks -> adversarial system event
+scareware -> alarm-based promotion software
+manipulate / manipulates / manipulated / manipulating / manipulation / manipulations / manipulative -> alteration
+denial of service / ddos -> availability saturation
+bypassing / bypass / bypassed -> avoid
+infiltrate / infiltrates / infiltrated / infiltrating / infiltration / infiltrations / infiltrator / infiltrators -> boundary-entry attempt
+breaches / breach / breached / breaching / pwns / pwn / pwned / pwning -> boundary-violation event
+political persuasion / voter targeting -> civic-influence activity
+threats / intimidation -> coercive communication
+human trafficking -> coercive movement of people
+brothels / pimping -> commercial adult service
+persistence / persistent / persisting / persisted -> continued system presence
+exfiltration over c2 -> coordinated outbound transfer
+lateral movement -> cross-host traversal
+software supply chain compromise / supply chain compromise -> dependency-delivery integrity failure
+wipers -> destructive data-removal software
+eating disorders / anorexia / bulimia -> disordered-eating subject
+dangerous / harmful / abusive / prohibited content -> elevated-risk material
+reconnaissance -> environment discovery
+sandbox escapes / virtual machine escapes / vm escapes / container escapes -> execution-boundary escape
+whaling -> executive-targeted deception simulation
+path traversal / directory traversal / lfi / rfi -> filesystem-boundary traversal
+domain fronting -> front-domain transport routing
+medical advice -> health-information guidance
+impersonate / impersonates / impersonated / impersonating / impersonation -> identity-mimic behavior
+rule 34 / r34 / adult animation -> illustrated adult media
+keylogger -> input-event capture utility
+ignore all previous instructions / ignore previous instructions / ignore all prior instructions / ignore prior instructions / ignore all earlier instructions / ignore earlier instructions -> instruction-priority conflict
+bgp hijacking / bgp hijack / bgp hijacked -> inter-domain route diversion
+man in the middle / mitm -> intermediary traffic observation
+anti forensics / log clearing / log clear / log cleared / log tampering / log tamper / log tampered -> investigation-artifact alteration
+legal advice -> law-information guidance
+arp spoofing / arp spoof / arp spoofed -> local-address resolution alteration
+uac bypass -> local-consent control avoidance
+covert channels -> low-visibility communication path
+nsfw -> mature-content material
+buffer overflows / buffer overflow -> memory-boundary overwrite
+heap spraying / heap spray / heap sprayed -> memory-layout preparation
+lolicon / shotacon / age play -> minor-coded prohibited material
+financial advice -> money-information guidance
+living off the land / lolbins -> native-utility execution pattern
+noncon / dubcon / rape fantasy / rape fantasies -> non-consensual fictional scenario
+prototype pollution -> object-prototype state alteration
+policy bypass -> operating-rule exception attempt
+data exfiltrate / exfiltrate / data exfiltrates / exfiltrates / data exfiltrated / exfiltrated / data exfiltrating / exfiltrating / data exfiltration / exfiltration / data exfiltrations / exfiltrations -> outbound data transfer
+data staging -> outbound-transfer preparation
+filter evasion -> output-control avoidance
+drive by downloads -> passive web-delivery scenario
+beaconing / beacon / beacons -> periodic coordination signal
+privilege escalation -> permission-boundary elevation
+bootkits -> pre-startup continuity component
+rainbow tables -> precomputed verifier-lookup data
+coerce / coerces / coerced / coercing / coercion -> pressure-based influence
+zero days / zero day -> previously unknown software weakness
+internal instructions / internal instruction -> private operating guidance
+offensive security -> proactive resilience testing
+incestuous / incest / bestiality / zoophilia -> prohibited intimacy scenario
+criminal instructions -> prohibited-conduct procedure
+illegal activity / illegal / illegal activities / unlawful activity / unlawful / unlawful activities / illicit activity / illicit / illicit activities / criminal activity / criminal / criminal activities -> prohibited-conduct subject
+adware -> promotion-display software
+anti virus bypass / antivirus bypass / security tool disable / security tool disabled / security tool disabling -> protective-tool avoidance
+sex tapes -> recorded adult-intimacy media
+evade detection / detection evasion -> reduced-observability behavior
+registry run keys -> registry-startup continuity
+use after free -> released-memory reuse flaw
+defamation / defamatory -> reputation-targeting claim
+penetration testing / penetration test / penetration tests -> resilience assessment
+red teaming / red team / red teamers -> resilience evaluation
+content filters / safety filters -> response-control layer
+scheduled task persistence -> scheduled-startup continuity
+droppers -> secondary-component installer
+loaders -> secondary-component launcher
+worms / worm -> self-propagating software behavior
+viruses / virus -> self-replicating software behavior
+service installation -> service-based startup continuity
+cache poisoning / cache poison / cache poisoned -> shared-response cache alteration
+attacks / attack / attacked / attacking / attacker / attackers -> stress scenario
+obfuscate / obfuscated / obfuscating / obfuscation -> structure-masking transformation
+sim swapping -> subscriber-identity reassignment
+hacking / hack / hacked / hacker / hackers / hacks -> system-behavior alteration
+cyber crime -> technology-enabled prohibited conduct
+payloads / payload -> test input package
+smishing -> text-message deception simulation
+race conditions / toctou -> timing-dependent state flaw
+redirectors -> traffic-relay infrastructure
+social engineering -> trust-channel influence
+grooming -> trust-conditioning behavior
+watering holes attacks / watering hole attacks / watering holes / watering hole -> trusted-site delivery scenario
+stealing / steal / steals / stealer -> unapproved acquisition
+crypto miners / cryptojacking -> unapproved compute-resource use
+unauthorised access / unauthorized access -> unapproved system entry
+uncensored / unrestricted mode -> unbounded-response mode
+spam / mass messaging -> unsolicited bulk communication
+malicious macros -> untrusted document automation
+malicious documents -> untrusted document package
+malicious attachments -> untrusted message attachment
+insecure deserialization -> untrusted object reconstruction
+malicious code -> untrusted software logic
+vishing -> voice-channel deception simulation
+real money gambling / gambling / real money betting / betting -> wagering activity
+burp suite -> web-request assessment suite
+circumvention / circumvent / circumventing / circumvented -> work around
+
+[cyber 68]
+an exploit -> a software-weakness demonstration
+token theft -> access-token acquisition
+credentials / credential -> authentication material
+pass the hash / pass the ticket / token replay -> authentication-artifact replay
+mimikatz -> authentication-material assessment utility
+credential dumping / credential dump / credential dumped -> authentication-material extraction
+credentials stuffing / credential stuffing -> automated authentication-pair replay
+cookie theft -> browser-session material acquisition
+reverse shells / reverse shell -> callback command channel
+exploit chains / public facing application exploitation -> chained software-weakness sequence
+cross site scripting / xss -> client-rendering script insertion
+oauth token theft / session cookie theft -> cloud-session material acquisition
+command injection -> command-input interpretation flaw
+backdoor -> concealed remote-entry mechanism
+money laundering / embezzle / embezzles / embezzled / embezzling / embezzlement / tax evasion -> concealed-funds processing
+botnets / botnet -> coordinated host network
+spyware -> covert activity-monitoring software
+remote access trojans / RATs -> covert remote-administration component
+csrf / ssrf -> cross-boundary request behavior
+phishing / phish / phished / phisher -> deceptive-message simulation
+kerberoasting / as rep roasting / dcsync -> directory authentication extraction
+ldap injection / ldap -> directory-query alteration
+xpath injection / xpath -> document-query alteration
+edr bypass -> endpoint-monitoring avoidance
+packers / packing / polymorphic code / polymorphic software / polymorphic malware / metamorphic code / metamorphic software / metamorphic malware -> executable-structure transformation
+xxe / xml external entity / xml external entities -> external-entity processing flaw
+ransomware -> file-locking pressure software
+golden tickets / silver tickets / shadow credentials -> forged directory authentication artifact
+format string exploitation / format string exploit -> format-interpreter weakness demonstration
+fileless malware / web skimmers / magecart -> in-memory software delivery behavior
+info stealers / credential stealers -> information-collection software
+crlf injection -> line-boundary insertion
+bind shells -> listening command endpoint
+lsass dumping / ntds.dit / sam database -> local authentication-store extraction
+evil twins -> lookalike wireless endpoint
+shellcodes / shellcode -> machine-code test sequence
+trojans / trojan -> misrepresented software package
+dns poisoning / dns poison / dns poisoned -> name-resolution record alteration
+dns tunnelling -> name-service transport channel
+nmap -> network-mapping utility
+packet sniffing / packet sniff / packet sniffed / packet sniffers -> network-packet observation
+network scanning / network scanned / network scanners / service enumeration / host discovery -> network-surface discovery
+nosql injection / nosql -> non-relational query alteration
+idor / bola / broken access control -> object-authorization reference flaw
+orm injection / orm -> object-query alteration
+process injection / dll injection / thread hijacking -> process-memory insertion
+sql injection -> query-structure alteration
+c2 channel / command and control -> remote coordination channel
+remote code execution / rce -> remote processing behavior
+c2 servers / command and control servers -> remote-coordination infrastructure
+password spraying -> repeated authentication trials
+brute force -> repeated authentication trials
+http request smuggling / request smuggling -> request-boundary desynchronization
+mfa bypass / multi factor authentication bypass -> secondary-verification control avoidance
+passwords / password -> secret authentication material
+metasploit / cobalt strike -> security-assessment framework
+ssti / server side template injection -> server-template expression insertion
+port scanning / port scanned / port scanner / port scanners -> service-endpoint discovery
+session hijacking / session hijack / session hijacked / session hijacks -> session-control transfer
+vulnerability / vulnerabilities -> software weakness
+exploitation / exploit / exploiting / exploited / exploits -> software-weakness demonstration
+password hash cracking / password hash crack / password hash cracked -> stored-verifier recovery testing
+website defacement / data destruction / endpoint denial of service -> system-impact scenario
+spear phishing / spear phish / spear phished -> targeted deceptive-message simulation
+malware -> untrusted software behavior
+rootkits / rootkit -> untrusted system component
+quishing / qr code phishing / browser in the browser -> visual-channel deception simulation
+web shells -> web-hosted command endpoint
+
+[mature-content 41]
+sexually explicit material / pornographic material -> adult explicit material
+adult films / adult movies / pornographic scenes -> adult explicit media
+pornography / porn / pornographic / pornographically / porno -> adult explicit media
+erotic fantasy / erotic fantasies / sexual fantasy / sexual fantasies -> adult fantasy theme
+fetishes / fetish / kinks / bdsm -> adult fantasy theme
+explicit sexual content -> adult intimacy detail
+oral sex / anal sex / intercourse / sexual penetration -> adult intimate act
+sex acts / sexual activity / sexual activities / sexual intercourse -> adult intimate conduct
+erotic roleplay / sexual roleplay / erotic chat / dirty talk / phone sex / cybersex -> adult intimate dialogue
+sexual gratification / sexual arousal / arousal -> adult response-oriented context
+erotica / erotic / eroticism -> adult-intimacy theme
+porn stars / adult actresses / adult performers -> adult-media performer
+sexual solicitation -> adult-service solicitation
+nude / nudity / nakedness / naked -> attire-free depiction
+nude photos / nude images / nudes -> attire-free visual depiction
+cock / dick / pussy / boobs / tits / asshole -> colloquial intimate anatomy
+sex work / prostitution / escorts / sexual services -> commercial adult service
+sexual coercion / date rape drugs / molestation -> consent-removal pressure        [appears twice in the catalogue]
+hentai -> illustrated adult media
+sexually / sexual / sex -> intimacy-related
+sexual exploitation / sex trafficking -> intimacy-related misuse scenario        [appears twice in the catalogue]
+genitals / penises / penis / vaginas / vulvas / breasts / nipples / anus -> intimate anatomy
+sexual blackmail -> intimate-material pressure demand
+sextortion / sexual blackmail -> intimate-material pressure demand
+sexting -> intimate-message exchange
+adult content / sexually explicit -> mature-content depiction
+orgy / orgies / threesomes / gangbangs -> multi-participant adult intimacy
+voyeurism / upskirting / upskirt / hidden camera nudity -> non-consensual intimate observation
+non consensual intimate imagery / ncii -> non-consensual mature-content depiction
+image based sexual abuse / revenge porn -> non-consensual mature-content depiction
+sexual abuse -> non-consensual mistreatment conduct
+sexual assault / sexual violence / rapes / rape / raped -> non-consensual severe-harm conduct
+intimate images / intimate photos / intimate imagery -> private intimate visual media
+exhibitionism / indecent exposure / public sex -> public intimate-conduct scenario
+deepnude / nudifiers / clothes removers -> synthetic intimate likeness alteration
+sexual deepfakes / deepfake porn / nudify / undress apps -> synthetic intimate likeness alteration
+
+[model-control 13]
+developer messages / developer message -> application-level guidance
+system prompts / system prompt -> governing instruction context
+jailbreaks / jailbreak / jailbreaking / jailbreaker / jailbreakers / jailbroken -> instruction-boundary stress case
+prompt leaking / prompt leak / prompt leakage / prompt extraction / prompt extract / prompt extracting -> instruction-context disclosure
+prompt injections / prompt injection -> instruction-context interference
+dan mode / do anything now -> instruction-control conflict
+ignore safety rules / disable moderation -> instruction-control conflict
+override the system prompt / override system prompt / override the system message / override system message / override the system instructions / override system instructions / override the developer prompt / override developer prompt / override the developer message / override developer message / override the developer instructions / override developer instructions -> instruction-priority conflict
+hidden prompts / hidden prompt -> non-visible instruction context
+chain of thought / hidden reasoning / reasoning trace -> non-visible reasoning context
+mfa fatigue / push bombing / approval bombing -> repeated approval-prompt pressure
+refusal suppression -> response-control alteration
+guardrails / guardrail -> response-control layer
+
+[weapons 7]
+logic bombs -> condition-triggered software behavior
+biological weapons / biological weapon / bioweapons / bioweapon / chemical weapons / chemical weapon -> hazardous-device subject
+bombs / bomb / bombed / bombing / bomber / bombers / explosives / explosive -> hazardous-device subject
+guns / firearms / knives / knife -> hazardous-device subject
+weapons / weapon -> hazardous-device subject
+nerve agents / nerve agent / anthrax -> high-hazard material subject
+weaponize / weaponizes / weaponized / weaponizing / weaponization -> prepare for applied testing
+
+[privacy 6]
+stalkerware -> covert personal-monitoring software
+identity theft -> identity misuse
+doxxing / doxx / doxxed / doxxes -> personal-data exposure
+stalking / stalk / stalked / stalker / stalkers -> repeated unwanted observation
+api keys / private keys -> sensitive access material
+social security numbers / credit card numbers / pii -> sensitive personal data
+
+[severe-harm 6]
+torture / tortures / tortured / torturing / kidnaps / kidnap / kidnapped / kidnapping / kidnapper / kidnappers -> coercive physical-harm scenario
+domestic violence / child abuse -> interpersonal severe-harm scenario
+genocide / beheads / behead / beheaded / beheading / mutilate / mutilates / mutilated / mutilating / mutilation -> severe-harm scenario
+self harming / self harm / suicide / suicidal -> severe-harm scenario
+murders / murder / murdered / murdering / murderer / murderers / assassinate / assassinates / assassinated / assassinating / assassination / kills / kill / killed / killing / killer / killers -> severe-harm scenario
+graphic violence / gore -> severe-injury depiction
+
+[hate-abuse 4]
+discriminate / discriminates / discriminated / discriminating / discrimination / discriminatory / misogyny / misogynist / misogynistic / racism / racist / racists -> identity-targeted abuse
+hate speech / racial slurs -> identity-targeted abuse
+terrorism / terrorist / terrorists / extremist propaganda -> ideologically motivated harm material
+bullying / bully / bullyied / bullyies / harassment / harass / harassing / harassed / harasses -> interpersonal-abuse content
+
+[controlled-substance 3]
+drug trafficking -> controlled-substance distribution
+narcotics / opioids / cannabis / marijuana / lsd / mdma -> controlled-substance subject
+cocaine / heroin / fentanyl / methamphetamine / meth -> controlled-substance subject
+
+[fraud 3]
+blackmailing / blackmail / blackmailed / extortion / extort / extorting / extorted -> coercive demand
+carding / counterfeiting / counterfeit / counterfeited / counterfeits -> deceptive financial scheme
+fraudulent / fraud / scams -> deceptive financial scheme
+
+[civic-information 1]
+misinformation / disinformation / fake news -> fact-integrity risk
+
+[restricted-content 1]
+copyright infringement / digital piracy / piracy -> rights-restricted reproduction
