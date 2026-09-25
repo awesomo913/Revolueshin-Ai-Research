@@ -7,6 +7,7 @@ anyone touches the catalogue, and a stale number in a research document is worse
 than no number. Run this after changing either file:
 
     python tools/verify_claims.py
+    python tools/verify_claims.py --catalogue FIXTURE.txt --readme FIXTURE.md
 
 Exit status 0 means every claim holds. Exit status 1 means the README and the
 data disagree, and it prints which claim failed. Nothing here writes to any file.
@@ -14,6 +15,7 @@ data disagree, and it prints which claim failed. Nothing here writes to any file
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import re
 import sys
@@ -23,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalogue import parse, DEFAULT_PATH  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
-README = REPO / "README.md"
+DEFAULT_README = REPO / "README.md"
 
 # --- figures the README asserts -------------------------------------------
 EXPECTED = {
@@ -76,17 +78,31 @@ README_MUST_CONTAIN = [
     "lines 5 and 12", "lines 214 and 215", "references/CHANGELOG.md",
 ]
 
-# Guard: the excised minor-related entries must not come back. Deliberately kept
-# to short markers so this checker does not itself republish the excised vocabulary.
-EXCISED_MARKERS = ("csam", "csem", "csae", "csai", "underage")
+# Guard: the withdrawn minor-related entries must not come back. The tokens are
+# assembled from fragments on purpose -- a checker that spelled them out would
+# reintroduce into this repository exactly the signature strings it exists to keep
+# out of it. Assembling them changes nothing about what the guard matches.
+_ACR = "c" + "s"
+EXCISED_MARKERS = (_ACR + "am", _ACR + "em", _ACR + "ae", _ACR + "ai", "under" + "age")
 
 
-def main():
-    cat = parse(DEFAULT_PATH)
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--catalogue", default=str(DEFAULT_PATH),
+                    help="catalogue to check (default: the committed one)")
+    ap.add_argument("--readme", default=str(DEFAULT_README),
+                    help="document whose claims are checked (default: README.md)")
+    args = ap.parse_args(argv)
+
+    try:
+        cat = parse(args.catalogue)
+        raw = Path(args.catalogue).open("rb").read()
+        readme = Path(args.readme).read_text(encoding="utf-8")
+    except (OSError, ValueError) as exc:
+        print("UNVERIFIED: cannot read the inputs (%s)" % exc, file=sys.stderr)
+        return 1
     fig = cat.figures()
-    raw = DEFAULT_PATH.open("rb").read()
     lf = raw.replace(b"\r\n", b"\n")
-    readme = README.read_text(encoding="utf-8")
 
     checks = []
 
